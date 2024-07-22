@@ -20,7 +20,7 @@ if ENV["RAILS_ENV"] == "production"
   workers worker_count if worker_count > 1
 end
 
-per_worker_max_memory_mb = 128
+per_worker_max_memory_mb = 64
 
 # Specifies the `worker_timeout` threshold that Puma will use to wait before
 # terminating a worker in development environments.
