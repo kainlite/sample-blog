@@ -1,1 +1,1 @@
-web: bin/stat
+web: bin/start
